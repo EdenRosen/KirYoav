@@ -5,7 +5,6 @@
     width: 100%;
     box-shadow: 0px 0px 10px rgba(66, 66, 66, 0.5);
 }
-
 .nav-wrapper .navbar {
     display: flex;
     width: 100%;
@@ -59,7 +58,7 @@
     left: 0;
     background-color: #ffffff;
     transform: scaleX(0);
-    transform-origin: top left;
+    transform-origin: top right;
     transition: transform 0.3s ease;
 }
 .nav-wrapper .links > * ::before {
