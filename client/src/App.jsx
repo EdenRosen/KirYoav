@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 // import { useAuth } from './contexts/AuthContext'
 import Home from './pages/Home'
+import Climbers from './pages/Climbers'
 // import Login from './pages/Login'
 // import Signup from './pages/Signup'
 // import ForgotPassword from './pages/ForgotPassword'
@@ -19,6 +20,7 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/climbers" element={<Climbers/>} />
           
           {/* { !currentUser && <Route path="/login" element={<Login/>} /> }
           { !currentUser && <Route path="/signup" element={<Signup/>} /> }

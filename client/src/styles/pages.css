@@ -1,3 +1,9 @@
+/* page */
+
+.page .page-content {
+    min-height: 100vh;
+    padding-top: 144px;
+}
 form {
     width: 500px;
     display: flex;
@@ -326,4 +332,27 @@ form .switches-field {
 .home-page .liked-products .title-info a {
     cursor: default;
 }
+.home-page .banner {
+    width: 100%;
+}
 
+/* Climbers */
+
+.climbers-page main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 70px;
+    gap: 20px;
+}
+.climbers-page .list-section {
+}
+.climbers-page .list-section h2 {
+    text-align: right;
+    padding-right: 100px;
+}
+.climbers-page .climbers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}

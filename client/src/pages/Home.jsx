@@ -3,6 +3,7 @@
 // import { useAuth } from '../contexts/AuthContext'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Banner from '../images/banner2.jpg'
 
 const Home = () => {
     // const { users, items, shops, categories } = useDatabase()
@@ -13,8 +14,8 @@ const Home = () => {
     return (
         <div className='page home-page'>
             <Navbar/>
-            <div className='shop-list expand-content'>
-                hiii
+            <div className='page-content'>
+                <img className='banner' src={Banner} alt={'banner'} />
             </div>
             <Footer/>
         </div>

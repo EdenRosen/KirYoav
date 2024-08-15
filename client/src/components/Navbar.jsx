@@ -32,9 +32,9 @@ const Navbar = () => {
                 </div>
             </nav>
             <div className="links">
-                <NavLink to="/items">מטפסים</NavLink>
+                <NavLink to="/climbers">מטפסים</NavLink>
                 <NavLink to="/">ראשי</NavLink>
-                <NavLink to="/users">התחבר</NavLink>
+                <NavLink to="/login">התחבר</NavLink>
                 {/* { !currentUser && <NavLink to="/login">Login</NavLink> }
                 { currentUser && <NavLink to="/user/me">Profile</NavLink> } */}
             </div>    
